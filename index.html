@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+         <link rel="stylesheet" type="text/css" href="ARtest.css">
+         <script src="https://aframe.io/releases/0.8.0/aframe.min.js"></script>
+         <script src="https://cdn.rawgit.com/jeromeetienne/AR.js/1.6.0/aframe/build/aframe-ar.js"></script>
+
+
+</head>
+<body style='margin : 0px; overflow: hidden;'>
+<a-scene embedded arjs='sourceType: webcam;'>
+       <a-marker preset ='hiro'>
+         
+
+<a-entity
+        obj-model="obj: url(/cylindar/clindar.obj);
+        mtl: url(/cylindar/cylindar.mtl)"></a-entity>
+                
+        
+        
+        
+        
+        
+        
+        
+        
+        <!--
+         <a-assets>
+        <a-asset-item id="object" src="cylindar/cylindar.obj";
+        id="obj-material" src="cylindar/cylindar.mtl"></a-asset-item> 
+        </a-assets>
+
+<a-obj-model src= "#object" mtl= "#obj-material"></a-obj-model>
+-->
+
+    </a-marker>
+    
+    <a-entity camera>
+        
+    </a-entity>
+    
+<!--<a-marker-camera preset="hiro" material="" arjs-anchor="" camera="" data-aframe-inspector-original-camera=""></a-marker-camera>-->
+</a-scene>
+
+
+<!--
+    <a-scene embedded arjs='sourceType: webcam;'>
+      <a-entity text="value:Hello World;align:center; color: red" scale="3 3 0">
+            <a-animation attribute="rotation" dur="3000" to="0 360 0" repeat="indefinite" easing="linear"></a-animation>
+
+                         <a-animation attribute="marerial.color" from="blue" to="red" dur="3000" repeate="indefinite"></a-animation>
+        </a-entity>  
+        <a-sky color="lightyellow"></a-sky>
+        <a-marker-camera preset="hiro" material="" arjs-anchor="" camera="" data-aframe-inspector-original-camera=""></a-marker-camera>
+    </a-scene>
+-->
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <!--
+    <a-box position='0 0.5 0' material='opacity: 0.5' color='red';>
+		    <a-animation attribute="rotation"
+		    dur="3000"
+		    to="0 360 0"
+		    repeat="indefinite"
+		    easing= "linear"></a-animation>
+		</a-box>
+-->
+        <!--
+     <a-entity obj-model=”obj: url(Desktop/ARtest/cylindar.obj); 
+                            mtl: url(Desktop/ARtest/cylindar.mtl)”></a-entity>
+-->
+        <!--   <a-entity text="value:Hello World;align:center" scale="3 3 0.00001"></a-entity>-->
+
+
